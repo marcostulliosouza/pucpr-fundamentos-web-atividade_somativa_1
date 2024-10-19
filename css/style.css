@@ -2,19 +2,20 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #fcece2;
   color: #333;
 }
 
 header {
-  background-color: #333;
+  background-color: #fe9365;
   color: white;
   padding: 10px 0;
+  text-align: center;
 }
 
 nav ul {
   list-style-type: none;
-  text-align: center;
+  padding: 0;
 }
 
 nav ul li {
@@ -33,12 +34,70 @@ main {
   text-align: center;
 }
 
+main img {
+  max-width: 40%;
+  height: auto;
+  margin-top: 20px;
+}
+
 footer {
-  background-color: #333;
+  background-color: #fe9365;
   color: white;
   text-align: center;
   padding: 10px 0;
   position: fixed;
   width: 100%;
   bottom: 0;
+}
+
+.form-card {
+  background-color: white;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.form-card h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #fe9365;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #f77d31;
 }
