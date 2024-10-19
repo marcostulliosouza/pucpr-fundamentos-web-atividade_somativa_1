@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulário</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<script src="./js/script.js" defer></script>
+</head>
+
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Início</a></li>
+				<li><a href="form.html">Formulário</a></li>
+				<li><a href="about.html">Sobre</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h1>Formulário</h1>
+		<form id="meuForm" action="formAction.html" method="GET" onsubmit="return validarFormulario()">
+			<label for="nome">Nome:</label>
+			<input type="text" id="nome" name="nome" required>
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+
+			<label for="idade">Idade:</label>
+			<input type="number" id="idade" name="idade" required>
+
+			<button type="submit">Enviar</button>
+		</form>
+	</main>
+	<footer>
+		<p>Todoso s direitos reservados &copy; 2024</p>
+	</footer>
+</body>
+
+</html>
